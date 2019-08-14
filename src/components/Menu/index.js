@@ -6,16 +6,16 @@ const Menu = () =>
   <Wrapper>
     <Nav>
       <NavItem>
-        <a href="https://twitter.com/MicheleMazzucco" rel="noopener noreferrer" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/company/rhodium-labs/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
       </NavItem>
       <NavItem>
-        <a href="https://dribbble.com/michelemazzucco" rel="noopener noreferrer" target="_blank">Dribbble</a>
+        <a href="https://www.facebook.com/rhodiumlabs/" rel="noopener noreferrer" target="_blank">Facebook</a>
       </NavItem>
       <NavItem>
-        <a href="https://www.instagram.com/michele.mazzucco/" rel="noopener noreferrer" target="_blank">Instagram</a>
+        <a href="https://twitter.com/rhodiumlabs?lang=en" rel="noopener noreferrer" target="_blank">Twitter</a>
       </NavItem>
       <NavItem>
-        <a href="https://github.com/michelemazzucco" rel="noopener noreferrer" target="_blank">Github</a>
+        <a href="https://github.com/rhodiumlabs" rel="noopener noreferrer" target="_blank">GitHub</a>
       </NavItem>
     </Nav>
     <Nav>
@@ -26,7 +26,7 @@ const Menu = () =>
         <NavLink to='/works'>Works</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to='/profile'>Profile</NavLink>
+        <NavLink to='/about'>About</NavLink>
       </NavItem>
       <NavItem highlight><EmailMe text="Contact"/>
     </NavItem>

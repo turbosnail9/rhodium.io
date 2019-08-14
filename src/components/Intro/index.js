@@ -4,9 +4,9 @@ import { Wrapper, Title } from './style'
 const Intro = props => 
   <Wrapper {...props} >
     <Title>
-      Hi, my name is Michele Mazzucco,
-      an <span>interdisciplinary</span> designer
-      based in Brescia, Italy
+      Welcome to Rhodium Labs. We are a
+      <span>multidisciplinary</span> team
+      based in Toronto, Canada
     </Title>
   </Wrapper>
 

@@ -8,9 +8,9 @@ const Footer = () =>
       Made (with love) in {getCurrentYear()}
     </Item>
     <Item position='right'>
-      <span>P.I. 03671100984&nbsp;-&nbsp;</span>
+      <span>☎️   1.514.817.9099&nbsp;-&nbsp;</span>
       
-      <a target="_blank" rel="noopener noreferrer" href='https://github.com/michelemazzucco/michelemazzucco.it'>Source code</a>
+      <a target="_blank" rel="noopener noreferrer" href='https://github.com/turbosnail9/rhodium.io'>Source code</a>
     </Item>
   </Wrapper>
 
