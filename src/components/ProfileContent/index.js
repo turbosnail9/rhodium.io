@@ -6,10 +6,10 @@ import Head from '../Head'
 import ProfileList from '../ProfileList'
 import { META } from '../../utils/constants'
 import { ContentWrapper } from '../../style/shared'
-import { ListsSection, ClientsList } from './style'
+import { ListsSection, DisciplinesList } from './style'
 
 export default ({ data }) => {
-  const { clients, events, mentions, articles } = data
+  const { disciplines, people, mentions, articles } = data
   
   return (
       <ContentWrapper>
@@ -20,18 +20,19 @@ export default ({ data }) => {
         <ProfileIntroSection 
           content={() =>
             <>            
-              <p>Over the last 4+ years, we've worked with deep-tech companies all over the world. 
-              Our focus is on solving hard problems.{' '}
-              <a href="https://dribbble.com/michelemazzucco" target="_blank" rel="noopener noreferrer">I enjoy experimenting</a>, <a href="https://github.com/michelemazzucco" target="_blank" rel="noopener noreferrer">building and trying</a> out new tools.</p>
-              <p>Sometimes <a href="https://twitter.com/rhodiumlabs" target="_blank" rel="noopener noreferrer">we tweet</a> and share projects on <a href="https://github.com/rhodiumlabs" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+              <p>We tackle complex technology challenges in insurance, finance, and infrastructure. 
+                We are trusted by global systemically important institutions in finding answers to 
+                important questions not yet asked.{' '}</p>
+
+                <p>Scroll down to learn more about <a href="https://echelon.fund/" target="_blank" rel="noopener noreferrer">what</a> <a href="http://www.wearhacks.com/" target="_blank" rel="noopener noreferrer">we</a> <a href="https://www.knoxcustody.com/" target="_blank" rel="noopener noreferrer">do</a>.</p>
             </>
           }
         />
         <ListsSection>
-          {events.edges.length > 0 && 
+          {people.edges.length > 0 && 
             <ProfileList 
-              title='Timeline'
-              list={() => events.edges.map(({ event }, i) => (
+              title='People'
+              list={() => people.edges.map(({ event }, i) => (
                 <EventListItem 
                   key={i}
                   {...event}
@@ -40,7 +41,7 @@ export default ({ data }) => {
             />}
           {articles.edges.length > 0 && 
             <ProfileList 
-              title='Public speaking & Articles'
+              title='Paradigms'
               list={() => articles.edges.map(({ article }, i) => (
                 <ProfileListItem 
                   key={i}
@@ -58,10 +59,10 @@ export default ({ data }) => {
                 />
               ))}
             />}
-          {clients.edges.length > 0 && 
-            <ClientsList 
-              title='Companies I have worked with'
-              list={() => clients.edges.map(({ client }, i) => (
+          {disciplines.edges.length > 0 && 
+            <DisciplinesList 
+              title='Services'
+              list={() => disciplines.edges.map(({ client }, i) => (
                 <ProfileListItem 
                   key={i}
                   {...client}

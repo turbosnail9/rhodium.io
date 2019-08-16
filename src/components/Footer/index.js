@@ -8,9 +8,9 @@ const Footer = () =>
       Made (with love) in {getCurrentYear()}
     </Item>
     <Item position='right'>
-      <span>☎️   1.514.817.9099&nbsp;-&nbsp;</span>
+      <span>📞 1.514.817.9099&nbsp;-&nbsp;</span>
       
-      <a target="_blank" rel="noopener noreferrer" href='https://github.com/turbosnail9/rhodium.io'>Source code</a>
+      <a target="_blank" rel="noopener noreferrer" href='mailto:hello@rhodium.io'>hello@rhodium.io</a>
     </Item>
   </Wrapper>
 

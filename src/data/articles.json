@@ -1,7 +1,13 @@
 [{
-  "name": "Yes we CSS! Awesome workflows with PostCSS",
-  "url": "https://speakerdeck.com/michelemazzucco/yes-we-css-awesome-workflows-with-postcss"
+  "name": "Distributed Ledger Technology",
+  "url": "https://en.wikipedia.org/wiki/Distributed_ledger"
 },{
-  "name": "Design is in the Details",
-  "url": "https://speakerdeck.com/michelemazzucco/design-is-in-the-details"
+  "name": "Artificial Intelligence",
+  "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+},{
+  "name": "Applied Cryptography",
+  "url": "https://en.wikipedia.org/wiki/Cryptography"
+},{
+  "name": "Actuarial Science",
+  "url": "https://en.wikipedia.org/wiki/Actuarial_sciences"
 }]

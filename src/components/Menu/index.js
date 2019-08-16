@@ -20,14 +20,14 @@ const Menu = () =>
     </Nav>
     <Nav>
       <NavItem>
-        <NavLink to='/'>Index</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink to='/works'>Works</NavLink>
+        <NavLink to='/'>Home</NavLink>
       </NavItem>
       <NavItem>
         <NavLink to='/about'>About</NavLink>
       </NavItem>
+      {/*<NavItem>
+        <NavLink to='/works'>Work</NavLink>
+      </NavItem>*/}
       <NavItem highlight><EmailMe text="Contact"/>
     </NavItem>
     </Nav>

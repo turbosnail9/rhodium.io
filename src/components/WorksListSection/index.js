@@ -21,8 +21,8 @@ const WorksListSection = ({
     </main>
     <NDAWrapper>
       <StyledDivider height={6} width={43} />
-      <h2>Would you be interested in finding out about our other work?</h2>
-      <StyledEmailMe text='Drop me an email' />
+      <h2>Think we can help?</h2>
+      <StyledEmailMe text='Reach out' />
     </NDAWrapper>
   </Wrapper>
 

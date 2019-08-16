@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const EmailMe = ({ className, text }) => 
-  <a className={className} rel="noopener" href='mailto:ari@rhodium.io'>{text}</a>
+  <a className={className} rel="noopener" href='mailto:hello@rhodium.io'>{text}</a>
 
 EmailMe.propTypes = {
   className: PropTypes.string,

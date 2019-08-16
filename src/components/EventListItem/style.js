@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { colors } from '../../style/constants'
 
-export const Position = styled.span`
+export const Name = styled.span`
   border-bottom: 1px dotted ${colors.gray700};
 `
 
@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     will-change: transform;
   }
 
-  .position {
+  .name {
     transform: translateY(0);
   }
 
@@ -29,7 +29,7 @@ export const Wrapper = styled.div`
   }
 
   &:hover {
-    .position {
+    .name {
       transform: translateY(-100%);
     }
 
